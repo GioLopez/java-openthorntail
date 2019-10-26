@@ -1,6 +1,7 @@
 package go.giolopez.javeriana.aes.quickfacts.rest;
 
 import org.eclipse.microprofile.config.inject.ConfigProperty;
+import org.eclipse.microprofile.faulttolerance.Retry;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
@@ -34,6 +35,7 @@ public class QuickFactsEndpoint {
     }
 
     @GET
+    @Retry(maxRetries = 10, jitter = 50)
     public QuickFactsModel getQuickFacts(@HeaderParam("gio.quickfacts.location") String loc){
         JsonObject response = target.queryParam("location", loc)
                 .request(MediaType.APPLICATION_JSON)
