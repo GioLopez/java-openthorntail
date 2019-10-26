@@ -1,7 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="11b14b8f-eb8a-4e17-86d1-ba1ce0593d6e" name="Default Changelist" comment="" />
+    <list default="true" id="11b14b8f-eb8a-4e17-86d1-ba1ce0593d6e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/startup.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/go/giolopez/javeriana/aes/weather/rest/WeatherModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/go/giolopez/javeriana/aes/weather/rest/WeatherModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/RestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/RestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/go/giolopez/javeriana/aes/weather/rest/WeatherModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather-thorntail.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather-thorntail.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather.war.original" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather.war.original" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/RestApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/RestApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/WeatherEndpoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/WeatherModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/weather/WEB-INF/classes/go/giolopez/javeriana/aes/weather/rest/WeatherModel.class" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,9 +33,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1SkFyqBIKuTQnRBFujxWwGB5NJf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../quick-facts" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -51,5 +74,16 @@
       <updated>1572099943674</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

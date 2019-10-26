@@ -19,4 +19,12 @@ public final class WeatherModel {
     public double getTemperature() {
         return temperature;
     }
+
+    @Override
+    public String toString() {
+        return "WeatherModel{" +
+                "location='" + location + '\'' +
+                ", temperature=" + temperature +
+                '}';
+    }
 }

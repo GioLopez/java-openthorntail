@@ -1,5 +1,9 @@
 package go.giolopez.javeriana.aes.weather.rest;
 
+
+import org.eclipse.microprofile.metrics.annotation.Counted;
+import org.eclipse.microprofile.metrics.annotation.Timed;
+
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -10,7 +14,12 @@ import javax.ws.rs.core.MediaType;
 public class WeatherEndpoint {
 
     @GET
-    @Produces(MediaType.APPLICATION_JSON)
+    @Timed(name="WeatherEndpoint")
+    @Counted(name="WeatherEndpoint")
+    @Produces({
+            MediaType.APPLICATION_JSON,
+            MediaType.TEXT_PLAIN
+    })
     public WeatherModel getWeather(@QueryParam("location") String loc){
         return new WeatherModel(loc, 12.05);
     }
