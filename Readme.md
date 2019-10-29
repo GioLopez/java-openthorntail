@@ -11,12 +11,13 @@ Que es importante a la hora de arquitecta:
 
 ## Table of Contents
 
-> If your `README` has a lot of info, section headers might be nice.
-
-- [Generar el proyecto con Thorntail](#Generar el proyecto con Thorntail)
+- [Inicio](#inicio)
 - [License](#license)
 
-## Generar el proyecto con Thorntail
+## Inicio
+
+> Iniciar el proyecto con Throntail
+
 1.	Ve a la pagina: https://thorntail.io/generator/
 2.	Sigue las instrucciones
 3.	Descarga el archivo
