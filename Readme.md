@@ -12,6 +12,7 @@ Que es importante a la hora de arquitecta:
 ## Table of Contents
 
 - [Inicio](#inicio)
+- [Contexto](#Contexto)
 - [License](#license)
 
 ## Inicio
@@ -25,6 +26,22 @@ Que es importante a la hora de arquitecta:
 5.  Ve al directorio target y ejecuta el comando `java -jar nombredetuapp-thorntail.jar`
 
 Hasta acá tienes una aplicación restfull API que responde a http://localhost:8080/hello, entonces es hora de editarla para lograr la creación de tu app
+
+## Contexto
+
+A través de la aplicación vamos a ir relacionando las diferentes definiciones de bounded context, Controlles y entidades, la idea es que al final esto quede super claro.
+
+### Bounded Context
+
+A bounded context se le llamaría aquella porción del código que esta de cara a nuestro servicio, es ese enrutador que nos lleva al controlador. Un ejemplo de lo que se habló anteriormente:
+
+```
+@ApplicationPath("/api/boundedcontext/v1.0/")
+@ApplicationPath("/api/usuario/v2.1.10/")
+@ApplicationPath("/api/paquetes/v10.5/")
+```
+
+El Path se sugiere que lleve primero el boundend context, para poder discriminar entre diferentes servicios de la organización, a nivel de microprofiles y si no se presenta directamente al usuario es recomendable ser granular, es decir que cuando estemos creando nuestro micro servicio en el path del router seamos lo mas explicitos posibles, asi como en el ejemplo de arriba que se coloca el nombre del boundedcontext y la versión, hasta ese detalle debemos llegar 
 
 
 
