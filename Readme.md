@@ -1,4 +1,4 @@
-# Ejemplo practico de  DDD con Full REST API con Java y Thorntail
+# Ejemplo practico de  DDD con Full REST API con Java y Thorntail [En construccion]
 
 > Restfull API with Java and Thorntail
 
@@ -11,9 +11,29 @@ Que es importante a la hora de arquitecta:
 
 ## Table of Contents
 
-- [Inicio](#inicio)
 - [Definiciones](#definiciones)
+- [Inicio](#inicio)
 - [License](#license)
+
+## Definiciones
+
+### Bounded Contexts
+
+Cada negocio tiene múltiples dominios como por ejemplo en una compañía puede tener área de ventas, diseño, ensamblaje y envíos, para cada uno de esos dominios la forma para referenciar los atributos o características de ese objeto que se esta produciendo son distintos, por eso es tan importante y DDD sugiere que al Arquitecto de software conozca bien cada uno de los dominios.
+
+> Anécdota
+
+Tengo una experiencia donde se contrató el desarrollo de software por parte de una compañía para solucionar un problema que tenían en un dominio especifico de la empresa, el dueño explicó al arquitecto que era lo que se quería y se inició el desarrollo del software. Después de varias semanas se regresó con el producto, se desplegó y se realizó el cobro por el trabajo.
+Un par de años después la compañía era mas grande, hasta otra razón social tenia y se les presentó un problema similar que podía ser resuelto a través de software, uno de los trabajadores se le ocurrió la idea de proponer al dueño que se contratará una empresa para que hiciera el diseño y desarrollo de software, entonces nos encontramos cara a cara nuevamente y su actitud no fue la mejor, hablamos y después de un par de minutos dijo: “[…] lo que me entregaron la ultima vez, no sirvió para nada! […]” y el problema no era mala construcción de software, el problema era que el lenguaje utilizado no era el mismo que empleaban las personas en ese dominio de la compañía, por lo que de inmediato se convirtió en un software basura. 
+
+> Conclusión de la anécdota
+
+Por eso es tan importante involucrar a las personas que interactúan con el sistema desarrollado y entender cuales son las cosas que para ellos son relevantes para el negocio y como se comunican normalmente, así transferir eso al software y crear algo mas util
+
+
+
+
+# Esta parte inferior esta en construccion [Jejeje]
 
 ## Inicio
 
@@ -27,24 +47,6 @@ Que es importante a la hora de arquitecta:
 
 Hasta acá tienes una aplicación restfull API que responde a http://localhost:8080/hello, entonces es hora de editarla para lograr la creación de tu app
 
-## Definiciones
-
-
-### Bounded Contexts
-
-Cada negocio tiene múltiples dominios como por ejemplo en una compañía puede tener área de ventas, diseño, ensamblaje y envíos, para cada uno de esos dominios la forma para referenciar los atributos o características de ese objeto que se esta produciendo son distintos, por eso es tan importante y DDD sugiere que al Arquitecto de software conozca bien cada uno de los dominios.
-
-> Anécdota
-
-Tengo una experiencia donde se contrató el desarrollo de software por parte de una compañía para solucionar un problema que tenían en un dominio especifico de la empresa, el dueño explicó al arquitecto que era lo que se quería y se inició el desarrollo del software. Después de varias semanas se regresó con el producto, se desplegó y se realizó el cobro por el trabajo.
-Un par de años después la compañía era mas grande, hasta otra razón social tenia y se les presentó un problema similar que podía ser resuelto a través de software, uno de los trabajadores se le ocurrió la idea de proponer al dueño que se contratará una empresa para que hiciera el diseño y desarrollo de software, entonces nos encontramos cara a cara nuevamente y su actitud no fue la mejor, hablamos y después de un par de minutos dijo: “[…] lo que me entregaron la ultima vez, no sirvió para nada! […]” y el problema no era mala construcción de software, el problema era que el lenguaje utilizado no era el mismo que empleaban las personas en ese dominio de la compañía, por lo que de inmediato se convirtió en un software basura. 
-
-Por eso es tan importante involucrar a las personas que interactúan con el sistema desarrollado y entender cuales son las cosas que para ellos son relevantes para el negocio y como se comunican normalmente, así transferir eso al software y crear algo mas util
-
-[https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/]
-
-# Esta parte inferior esta en construccion [Jejeje]
-
 ### Bounded Context
 
 A bounded context se le llamaría aquella porción del código que esta de cara a nuestro servicio, es ese enrutador que nos lleva al controlador. Un ejemplo de lo que se habló anteriormente:
@@ -56,6 +58,10 @@ A bounded context se le llamaría aquella porción del código que esta de cara 
 ```
 
 El Path se sugiere que lleve primero el boundend context, para poder discriminar entre diferentes servicios de la organización, a nivel de microprofiles y si no se presenta directamente al usuario es recomendable ser granular, es decir que cuando estemos creando nuestro micro servicio en el path del router seamos lo mas explicitos posibles, asi como en el ejemplo de arriba que se coloca el nombre del boundedcontext y la versión, hasta ese detalle debemos llegar 
+
+## Referencias
+
+- [https://www.infoq.com/presentations/microservices-ddd-bounded-contexts/]
 
 ## License
 
