@@ -21,7 +21,7 @@ Que es importante a la hora de arquitecta:
 
 Cada negocio tiene múltiples dominios como por ejemplo en una compañía puede tener área de ventas, diseño, ensamblaje y envíos, para cada uno de esos dominios la forma para referenciar los atributos o características de ese objeto que se esta produciendo son distintos, por eso es tan importante y DDD sugiere que al Arquitecto de software conozca bien cada uno de los dominios.
 
-> Anécdota
+> Anécdota inventada
 
 Tengo una experiencia donde se contrató el desarrollo de software por parte de una compañía para solucionar un problema que tenían en un dominio especifico de la empresa, el dueño explicó al arquitecto que era lo que se quería y se inició el desarrollo del software. Después de varias semanas se regresó con el producto, se desplegó y se realizó el cobro por el trabajo.
 Un par de años después la compañía era mas grande, hasta otra razón social tenia y se les presentó un problema similar que podía ser resuelto a través de software, uno de los trabajadores se le ocurrió la idea de proponer al dueño que se contratará una empresa para que hiciera el diseño y desarrollo de software, entonces nos encontramos cara a cara nuevamente y su actitud no fue la mejor, hablamos y después de un par de minutos dijo: “[…] lo que me entregaron la ultima vez, no sirvió para nada! […]” y el problema no era mala construcción de software, el problema era que el lenguaje utilizado no era el mismo que empleaban las personas en ese dominio de la compañía, por lo que de inmediato se convirtió en un software basura. 
@@ -30,7 +30,9 @@ Un par de años después la compañía era mas grande, hasta otra razón social 
 
 Por eso es tan importante involucrar a las personas que interactúan con el sistema desarrollado y entender cuales son las cosas que para ellos son relevantes para el negocio y como se comunican normalmente, así transferir eso al software y crear algo mas util
 
+### Event Storm
 
+<a href="https://github.com/jgraph/drawio-desktop/issues/45"><img src=https://user-images.githubusercontent.com/1964655/41868241-627f4136-78ad-11e8-8912-9da26ec2db22.png" title="EventStorm" alt="EventStorm"></a>
 
 
 # Esta parte inferior esta en construccion [Jejeje]
