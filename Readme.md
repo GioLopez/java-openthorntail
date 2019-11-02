@@ -32,7 +32,7 @@ Por eso es tan importante involucrar a las personas que interactúan con el sist
 
 ### Event Storm
 
-<a href="https://github.com/jgraph/drawio-desktop/issues/45"><img src=https://user-images.githubusercontent.com/1964655/41868241-627f4136-78ad-11e8-8912-9da26ec2db22.png" title="EventStorm" alt="EventStorm"></a>
+<a href="https://github.com/jgraph/drawio-desktop/issues/45"><img src="https://user-images.githubusercontent.com/1964655/41868241-627f4136-78ad-11e8-8912-9da26ec2db22.png" title="EventStorm" alt="EventStorm"></a>
 
 
 # Esta parte inferior esta en construccion [Jejeje]
