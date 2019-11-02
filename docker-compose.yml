@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+    weather:
+        image: pica/weather:1.0.0
+        build:
+            context: ./weather
+        ports:
+            - "8090:8080"
+        networks:
+            - thortail-net
+
+    quick-facts:
+        image: pica/quick-facts:1.0.0
+        build:
+            context: ./quick-facts
+        ports:
+            - "8091:8080"
+        networks:
+            - thortail-net
+    
+    swagger:
+        image: swaggerapi/swagger-editor
+        ports:
+            - "8081:8080"
+        networks:
+            - thortail-net
+networks:
+    thortail-net:
